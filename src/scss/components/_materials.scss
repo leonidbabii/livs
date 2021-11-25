@@ -1,0 +1,40 @@
+div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+article {
+  margin: 0 50px 60px 0;
+  padding: 5px;
+  background-image: url("../img/frame.jpg");
+  background-position: top left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+img {
+  position: relative;
+  left: 30px;
+  bottom: 30px;
+}
+
+h3 {
+  padding-top: 16px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.6;
+  text-transform: uppercase;
+  color: var(--color-shark);
+}
+
+a {
+  padding-right: 20px;
+  color: var(--color-wine-berry);
+  background-image: url("../img/next.svg");
+  background-position: right center;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+}
