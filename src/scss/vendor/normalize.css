@@ -37,8 +37,6 @@ li {
  * Remove the margin in all browsers.
  */
 
-
-
 /**
  * Render the `main` element consistently in IE.
  */
@@ -66,11 +64,11 @@ h1 {
  */
 
 hr {
-	box-sizing: content-box;
-	/* 1 */
 	height: 0;
+	box-sizing: content-box;
+  overflow: visible;
 	/* 1 */
-	overflow: visible;
+	/* 1 */
 	/* 2 */
 }
 

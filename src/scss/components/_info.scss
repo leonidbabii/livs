@@ -1,0 +1,33 @@
+ul {
+  display: flex;
+}
+
+li {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 170px;
+  text-align: center;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+img {
+  display: flex;
+  place-items: center;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  text-align: center;
+  color: #5b1827;
+}
+
+p {
+  line-height: 1.5;
+  text-align: center;
+  color: var(--color-shark);
+}
